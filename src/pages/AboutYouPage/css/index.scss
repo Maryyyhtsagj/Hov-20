@@ -1,0 +1,67 @@
+.about-you {
+  background-color: #adc3ff;
+
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+
+
+  .title {
+    font-size: 90px;
+    color: white;
+    text-shadow: 2px 2px 0px #ff86c1;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2rem;
+  }
+
+  .info-box {
+    background-color: #ffb3d6;
+    height: 326px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+
+    .info-item {
+      text-align: center;
+      width: 30%;
+
+      .icon-circle {
+        background-color: #ffd1e6;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 1rem;
+
+        .icon {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      .info-text {
+        color: white;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+
+}
